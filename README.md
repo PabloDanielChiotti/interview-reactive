@@ -19,3 +19,6 @@ La funcionalidad debe exponerse a través de un servicio REST de manera que reci
 Queda a libre elección el lenguaje y frameworks a utilizar para la implementación.
 
 Framework: reactivo
+
+Endpoint disponible:
+```curl --location 'http://localhost:8080/inditex/product?UNIT_SALE_CRITERIA=10&STOCK_RATIO_CRITERIA=20'```
