@@ -7,18 +7,15 @@ Los criterios de ordenación definidos serán el criterio de ventas por unidades
 El criterio de ventas por unidades dará una puntuación a cada producto basado en el número de unidades vendidas.
 El criterio de ratio de stock dará una puntuación en función de las tallas que contengan stock en ese momento.
 El listado de productos es el siguiente:
-
-id |            name            | sales_units | stock
- 1 | V-NECH BASIC SHIRT         | 100         | S:4/M:9/L:0
- 2 | CONTRASTING FABRIC T-SHIRT | 50          | S:35/M:9/L:9
- 3 | RAISED PRINT T-SHIRT       | 80          | S:20/M:2/L:20
- 4 | PLEATED T-SHIRT            | 3           | S:25/M:30/L:10
- 5 | CONTRASTING LACE T-SHIRT   | 650         | S:0/M:1/L:0
- 6 | SLOGAN T-SHIRT             | 20          | S:9/M:2/L:5
  
- Attempt | #1 | #2 | #3 | #4 | #5 | #6 | #7 | #8 | #9 | #10 | #11
---- | --- | --- | --- |--- |--- |--- |--- |--- |--- |--- |---
-Seconds | 301 | 283 | 290 | 286 | 289 | 285 | 287 | 287 | 272 | 276 | 269
+ id | name | sales_units | stock
+--- | --- | --- | ---
+1 | V-NECH BASIC SHIRT | 100 | S:4/M:9/L:0
+2 | CONTRASTING FABRIC T-SHIRT | 50 | S:35/M:9/L:9
+3 | RAISED PRINT T-SHIRT  | 80 | S:20/M:2/L:20
+4 | PLEATED T-SHIRT | 3 | S:25/M:30/L:10
+5 | CONTRASTING LACE T-SHIRT | 650 | S:0/M:1/L:0
+6 | SLOGAN T-SHIRT | 20 | S:9/M:2/L:5
 
 La funcionalidad debe exponerse a través de un servicio REST de manera que recibirá los pesos para cada criterio.
 Queda a libre elección el lenguaje y frameworks a utilizar para la implementación.
