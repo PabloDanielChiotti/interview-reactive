@@ -15,6 +15,10 @@ id |            name            | sales_units | stock
  4 | PLEATED T-SHIRT            | 3           | S:25/M:30/L:10
  5 | CONTRASTING LACE T-SHIRT   | 650         | S:0/M:1/L:0
  6 | SLOGAN T-SHIRT             | 20          | S:9/M:2/L:5
+ 
+ Attempt | #1 | #2 | #3 | #4 | #5 | #6 | #7 | #8 | #9 | #10 | #11
+--- | --- | --- | --- |--- |--- |--- |--- |--- |--- |--- |---
+Seconds | 301 | 283 | 290 | 286 | 289 | 285 | 287 | 287 | 272 | 276 | 269
 
 La funcionalidad debe exponerse a través de un servicio REST de manera que recibirá los pesos para cada criterio.
 Queda a libre elección el lenguaje y frameworks a utilizar para la implementación.
